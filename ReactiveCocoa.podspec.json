@@ -3,7 +3,7 @@
   "version": "4.2.2",
   "summary": "A framework for composing and transforming streams of values.",
   "description": "ReactiveCocoa (RAC) is an Objective-C framework for Functional Reactive Programming.\nIt provides APIs for composing and transforming streams of values.",
-  "homepage": "https://github.com/MarianaTek/ReactiveCocoa",
+  "homepage": "https://github.com/Mariana-Tek/ReactiveCocoa",
   "license": {
     "type": "MIT",
     "file": "LICENSE.md"
@@ -18,7 +18,7 @@
     "watchos": "2.0"
   },
   "source": {
-    "git": "https://github.com/MarianaTek/ReactiveCocoa.git",
+    "git": "https://github.com/Mariana-Tek/ReactiveCocoa.git",
     "tag": "v4.2.2"
   },
   "dependencies": {
