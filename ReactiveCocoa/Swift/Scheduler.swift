@@ -411,7 +411,7 @@ public final class TestScheduler: DateSchedulerType {
 	/// This is intended to be used as a way to execute actions that have been
 	/// scheduled to run as soon as possible.
 	public func advance() {
-		advanceByInterval(DBL_EPSILON)
+		advanceByInterval(Double.ulpOfOne)
 	}
 
 	/// Advances the virtualized clock by the given interval, dequeuing and
