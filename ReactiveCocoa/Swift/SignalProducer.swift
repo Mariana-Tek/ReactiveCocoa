@@ -162,7 +162,7 @@ public struct SignalProducer<Value, Error: Swift.Error> {
 	///
 	/// - returns: A tuple of `SignalProducer` to replay values from and
 	///            an `observer` to put replayable values to.
-	@available(*, deprecated, message: "Use properties instead. 'buffer' will be removed in RAC 5.0")
+//	@available(*, deprecated, message: "Use properties instead. 'buffer' will be removed in RAC 5.0")
 	public static func buffer(_ capacity: Int) -> (SignalProducer, Signal<Value, Error>.Observer) {
 		precondition(capacity >= 0, "Invalid capacity: \(capacity)")
 
